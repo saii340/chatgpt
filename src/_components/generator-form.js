@@ -85,7 +85,7 @@ export const GeneratorForm = () => {
         "imageFile": imageFile
       },
   }
-  axios.post("http://sai-env.eba-wkpzvjdj.us-east-1.elasticbeanstalk.com/chat", config)
+  axios.post("https://auroproai.com/chat", config)
   .then(function (response) {    
   })
   .catch((error) => {
