@@ -50,7 +50,7 @@ export const GeneratorForm = () => {
         "message": content
       },
   }
-  axios.post("https://auroproai.com/form", config)
+  axios.post("http://sai-env.eba-wkpzvjdj.us-east-1.elasticbeanstalk.com/chat", config)
   .then(function (response) {
     setChatResponse(response?.data?.apiResponse)
     setEditable(true)
