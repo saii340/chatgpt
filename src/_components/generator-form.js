@@ -85,7 +85,7 @@ export const GeneratorForm = () => {
         "imageFile": imageFile
       },
   }
-  axios.post("https://auroproai.com/generate", config)
+  axios.post("https://auroproai.com/chat", config)
   .then(function (response) {    
   })
   .catch((error) => {
